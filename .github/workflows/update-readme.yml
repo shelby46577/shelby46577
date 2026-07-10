@@ -1,0 +1,86 @@
+name: Update README (guestbook + daily quote)
+
+on:
+  schedule:
+    - cron: "0 4 * * *" # 07:00 Nairobi time, daily
+  issues:
+    types: [opened, edited]
+  issue_comment:
+    types: [created]
+  workflow_dispatch: # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+  issues: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build guestbook + rotate quote
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = 'README.md';
+            let readme = fs.readFileSync(path, 'utf8');
+
+            // ---------- GUESTBOOK: latest 5 issues ----------
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'all',
+              sort: 'created',
+              direction: 'desc',
+              per_page: 30,
+            });
+
+            const clean = (s) => s
+              .replace(/[\r\n]+/g, ' ')
+              .replace(/[<>|`]/g, '')
+              .trim()
+              .slice(0, 120);
+
+            const entries = issues
+              .filter(i => !i.pull_request)
+              .slice(0, 5)
+              .map(i => {
+                const date = new Date(i.created_at).toISOString().slice(0, 10);
+                return `> 💬 **[@${i.user.login}](${i.user.html_url})** · *${date}*\n> ${clean(i.title)}`;
+              })
+              .join('\n>\n');
+
+            const guestbook = entries || '> 📭 No entries yet — be the first to sign!';
+
+            readme = readme.replace(
+              /(<!--GUESTBOOK:START-->)[\s\S]*?(<!--GUESTBOOK:END-->)/,
+              `$1\n${guestbook}\n$2`
+            );
+
+            // ---------- QUOTE: rotate daily ----------
+            const quotes = JSON.parse(fs.readFileSync('data/quotes.json', 'utf8'));
+            const now = new Date();
+            const dayOfYear = Math.floor(
+              (Date.now() - Date.UTC(now.getUTCFullYear(), 0, 0)) / 86400000
+            );
+            const q = quotes[dayOfYear % quotes.length];
+            const quoteBlock = `> *"${q.text}"*\n>\n> — **${q.author}**`;
+
+            readme = readme.replace(
+              /(<!--QUOTE:START-->)[\s\S]*?(<!--QUOTE:END-->)/,
+              `$1\n${quoteBlock}\n$2`
+            );
+
+            fs.writeFileSync(path, readme);
+            console.log('README sections rebuilt ✅');
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: refresh guestbook & daily quote 🤖"
+          git push
