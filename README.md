@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"A shipped MVP teaches you more than a year of planning."*
+> *"Build for the market you know. The world will find you."*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
