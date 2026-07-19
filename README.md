@@ -101,9 +101,9 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Talk is cheap. Show me the code."*
+> *"Simplicity is the soul of efficiency."*
 >
-> — **Linus Torvalds**
+> — **Austin Freeman**
 <!--QUOTE:END-->
 
 ```console
