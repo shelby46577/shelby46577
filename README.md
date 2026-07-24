@@ -101,9 +101,9 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"The only way to learn a new programming language is by writing programs in it."*
+> *"Programs must be written for people to read, and only incidentally for machines to execute."*
 >
-> — **Dennis Ritchie**
+> — **Harold Abelson**
 <!--QUOTE:END-->
 
 ```console
