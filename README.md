@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Done is a feature. Add it to every project."*
+> *"The graveyard of startups is full of perfect codebases."*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
