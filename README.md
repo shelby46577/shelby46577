@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"M-Pesa taught the world mobile money. Nairobi can teach it software."*
+> *"while(alive) { build(); ship(); repeat(); }"*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
