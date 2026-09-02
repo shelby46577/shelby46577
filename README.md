@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Every bug you fix is a lesson you never have to pay for again."*
+> *"Consistency beats intensity. Commit something every day."*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
