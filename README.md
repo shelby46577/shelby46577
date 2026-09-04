@@ -101,9 +101,9 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"The best time to refactor was before the demo. The second best is now."*
+> *"Talk is cheap. Show me the code."*
 >
-> — **mufasa@github**
+> — **Linus Torvalds**
 <!--QUOTE:END-->
 
 ```console
