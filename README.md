@@ -101,9 +101,9 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Simplicity is the soul of efficiency."*
+> *"First, solve the problem. Then, write the code."*
 >
-> — **Austin Freeman**
+> — **John Johnson**
 <!--QUOTE:END-->
 
 ```console
