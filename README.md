@@ -101,9 +101,9 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"It's not a bug — it's an undocumented feature."*
+> *"Code never lies. Comments sometimes do."*
 >
-> — **Unknown**
+> — **Ron Jeffries**
 <!--QUOTE:END-->
 
 ```console
