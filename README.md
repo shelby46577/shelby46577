@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Your side project is someone else's main solution."*
+> *"M-Pesa taught the world mobile money. Nairobi can teach it software."*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
