@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Ship the small version today. The perfect version ships never."*
+> *"Users don't see your codebase. They see whether it works."*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
