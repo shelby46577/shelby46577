@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Users don't see your codebase. They see whether it works."*
+> *"A shipped MVP teaches you more than a year of planning."*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
