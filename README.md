@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Build for the market you know. The world will find you."*
+> *"Every bug you fix is a lesson you never have to pay for again."*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
