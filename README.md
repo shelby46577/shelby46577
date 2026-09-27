@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Consistency beats intensity. Commit something every day."*
+> *"The best time to refactor was before the demo. The second best is now."*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
