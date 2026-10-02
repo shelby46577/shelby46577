@@ -101,9 +101,9 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Make it work, make it right, make it fast."*
+> *"Premature optimization is the root of all evil."*
 >
-> — **Kent Beck**
+> — **Donald Knuth**
 <!--QUOTE:END-->
 
 ```console
