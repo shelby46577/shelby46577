@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"One route, two cars, zero excuses. Ship the game."*
+> *"Your side project is someone else's main solution."*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
