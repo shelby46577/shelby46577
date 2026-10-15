@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"The graveyard of startups is full of perfect codebases."*
+> *"Ship the small version today. The perfect version ships never."*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
