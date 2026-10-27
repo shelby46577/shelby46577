@@ -101,9 +101,9 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Premature optimization is the root of all evil."*
+> *"The only way to learn a new programming language is by writing programs in it."*
 >
-> — **Donald Knuth**
+> — **Dennis Ritchie**
 <!--QUOTE:END-->
 
 ```console
