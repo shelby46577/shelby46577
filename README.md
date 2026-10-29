@@ -101,9 +101,9 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Programs must be written for people to read, and only incidentally for machines to execute."*
+> *"Deleted code is debugged code."*
 >
-> — **Harold Abelson**
+> — **Jeff Sickel**
 <!--QUOTE:END-->
 
 ```console
