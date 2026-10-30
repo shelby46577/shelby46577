@@ -101,9 +101,9 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Deleted code is debugged code."*
+> *"Weeks of coding can save you hours of planning."*
 >
-> — **Jeff Sickel**
+> — **Unknown**
 <!--QUOTE:END-->
 
 ```console
