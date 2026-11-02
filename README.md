@@ -101,9 +101,9 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Code never lies. Comments sometimes do."*
+> *"One route, two cars, zero excuses. Ship the game."*
 >
-> — **Ron Jeffries**
+> — **mufasa@github**
 <!--QUOTE:END-->
 
 ```console
