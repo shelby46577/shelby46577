@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"while(alive) { build(); ship(); repeat(); }"*
+> *"Done is a feature. Add it to every project."*
 >
 > — **mufasa@github**
 <!--QUOTE:END-->
