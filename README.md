@@ -101,9 +101,9 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"First, solve the problem. Then, write the code."*
+> *"Make it work, make it right, make it fast."*
 >
-> — **John Johnson**
+> — **Kent Beck**
 <!--QUOTE:END-->
 
 ```console
