@@ -101,7 +101,7 @@ Fetching quote from /dev/brain... ███████████████�
 ```
 
 <!--QUOTE:START-->
-> *"Weeks of coding can save you hours of planning."*
+> *"It's not a bug — it's an undocumented feature."*
 >
 > — **Unknown**
 <!--QUOTE:END-->
